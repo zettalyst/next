@@ -5,7 +5,7 @@ interface Article {
 }
 
 async function getData(): Promise<Article[]> {
-  const res = await fetch("http://localhost:3000/boards/search?keyword=geek");
+  const res = await fetch("https://65f0569eda8c6584131b7828.mockapi.io/boards");
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
