@@ -1,5 +1,7 @@
 runtime: nodejs20 # or another supported version
 
+
+service_account: inspired-victor-417611@appspot.gserviceaccount.com
 instance_class: B1
 basic_scaling:
   max_instances: 1
