@@ -1,0 +1,10 @@
+runtime: nodejs20 # or another supported version
+
+instance_class: B1
+basic_scaling:
+  max_instances: 1
+  idle_timeout: 10m
+resources: 
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
