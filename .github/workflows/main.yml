@@ -19,7 +19,7 @@ jobs:
       uses: 'google-github-actions/auth@v2'
       with:
         service_account: 'my-service-account2@inspired-victor-417611.iam.gserviceaccount.com'
-        workload_identity_provider: 'projects/917415012718/locations/global/workloadIdentityPools/github/providers/my-repo'
+        workload_identity_provider: 'projects/917415012718/locations/global/workloadIdentityPools/github/providers/next'
 
     - id: 'deploy'
       uses: 'google-github-actions/deploy-appengine@v2'
